@@ -1,0 +1,77 @@
+.chessboard {
+	width: 640px;
+	height: 640px;
+	margin: 20px;
+	border: 25px solid #333;
+	position: relative;
+}
+.black {
+	background-color: #999;
+}
+.white {
+	background-color: #fff;
+}
+.chessboard > div{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	font-size:50px;
+	text-align:center;
+	display: table-cell;
+	vertical-align:middle;
+}
+.top_1{ top: 0; }
+.top_2{ top: 80px; }
+.top_3{ top: 160px; }
+.top_4{ top: 240px; }
+.top_5{ top: 320px; }
+.top_6{ top: 400px; }
+.top_7{ top: 480px; }
+.top_8{ top: 560px; }
+
+.left_1{ left: 0; }
+.left_2{ left: 80px; }
+.left_3{ left: 160px; }
+.left_4{ left: 240px; }
+.left_5{ left: 320px; }
+.left_6{ left: 400px; }
+.left_7{ left: 480px; }
+.left_8{ left: 560px; }
+
+
+.chessboard > div:hover{
+	cursor: pointer;
+}
+
+.chessboard > div:hover{
+background: brown;
+}
+
+
+
+
+/* #chess {
+	width: 640px;
+	height: 640px;
+	margin: 0.5em;
+	border: 2px solid #808080;
+}
+
+#chess div {
+	float: left;
+	width: 80px;
+	height: 80px;
+	background-color: #fff;
+}
+
+#chess div:nth-child(-2n+8), 
+#chess div:nth-child(8) ~ div:nth-child(-2n+15), 
+#chess div:nth-child(16) ~ div:nth-child(-2n+24), 
+#chess div:nth-child(24) ~ div:nth-child(-2n+31), 
+#chess div:nth-child(32) ~ div:nth-child(-2n+40), 
+#chess div:nth-child(40) ~ div:nth-child(-2n+47), 
+#chess div:nth-child(48) ~ div:nth-child(-2n+56), 
+#chess div:nth-child(56) ~ div:nth-child(-2n+63) {
+	background-color: #000;
+} */
+
